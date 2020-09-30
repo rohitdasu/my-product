@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  grid-template-areas: "type name button" "type price button" "type details button";
+  grid-template-columns: 5% auto auto;
+  width: 100%;
+}
+
+.type{
+  grid-area: type;
+}
+
+.price{
+  grid-area: price;
+}
+
+.button{
+  grid-area: button;
+  text-align: right;
+}
+
+.details{
+  grid-area: details;
+}
+
+.name{
+  grid-area: name;
+}
